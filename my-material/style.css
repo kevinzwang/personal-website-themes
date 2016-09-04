@@ -5,9 +5,24 @@ Author URI: kevinzwang.com
 Version: 0.1
 */
 
-* {
+body {
 	font-family: Arial, sans-serif;
 }
 
-.the_title {
+#the_title {
+
 }
+
+#the_excerpt {
+
+}
+
+#site-title {
+
+}
+
+#site-description {
+	
+}
+
+

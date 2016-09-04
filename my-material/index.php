@@ -7,10 +7,10 @@ if (have_posts()) :
 
 ?>
 
-    <h1 class="the_title">
+    <h1 id="the_title">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
     </h1>
-    <p class="the_excerpt">
+    <p id="the_excerpt">
     	<?php the_excerpt(); ?>
     </p>
 
