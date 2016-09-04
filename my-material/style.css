@@ -5,12 +5,9 @@ Author URI: kevinzwang.com
 Version: 0.1
 */
 
-body {
+* {
 	font-family: Arial, sans-serif;
-	font-size: 14px;
-	color: green;
 }
 
-div.the_title {
-	background-color: green;
+.the_title {
 }
