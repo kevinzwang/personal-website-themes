@@ -10,3 +10,7 @@ body {
 	font-size: 14px;
 	color: green;
 }
+
+div.the_title {
+	background-color: green;
+}

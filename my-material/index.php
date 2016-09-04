@@ -7,10 +7,12 @@ if (have_posts()) :
 
 ?>
 
-    <h2>
+    <div class="the_title">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-    </h2>
-    <?php the_excerpt(); ?>
+    </div>
+    <p class="the_excerpt">
+    	<?php the_excerpt(); ?>
+    </p>
 
 <?php
 endwhile;
