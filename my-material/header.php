@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html <?php language_attributes();; ?>>
+
     <head>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.blue-red.min.css" />
+        <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width">
         <title><?php bloginfo('name'); ?></title>
